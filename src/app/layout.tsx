@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import Image from 'next/image'
+
+import Header from "@/components/layouts/TheHeader";
+import { Layout } from "@/widgets/layout";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,10 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <head>
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/geoform"  />
+      </head>
+      <body >
+        <Layout children={children}/>
       </body>
     </html>
   );

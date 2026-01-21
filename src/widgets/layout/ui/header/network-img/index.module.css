@@ -1,0 +1,5 @@
+.networks{
+    display: flex;
+    padding-right: 49px;
+    gap:16px;
+}

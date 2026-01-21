@@ -1,0 +1,42 @@
+.header{
+    padding: 20px 30px;
+    border-bottom: 2px solid rgba(146, 115, 152, 0.2);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.btn{
+    font-family: 'Geoform', sans-serif;
+    color: white;
+    border: 2px solid white;
+    padding: 7px 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.logoAndNav{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    padding-right: 39px;
+    gap: 20px;
+}
+
+.phoneText{
+    font-size: 18px;
+    color: white;
+    font-weight: 500px;
+}
+

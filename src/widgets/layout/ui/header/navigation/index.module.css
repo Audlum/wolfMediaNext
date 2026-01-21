@@ -1,0 +1,29 @@
+.navLink {
+    color: #927398;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+}
+
+.navLink:hover {
+    color: white;
+}
+
+.navLink.active {
+    color: white;
+}
+
+.navLink.active::after {
+    content: '';
+    position: absolute;
+    bottom: -46.5;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #F25C3A;
+}
