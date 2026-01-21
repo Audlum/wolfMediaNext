@@ -1,0 +1,44 @@
+.all{
+    margin-top: 121px;
+}
+
+.container{
+    display: flex;
+    gap: 35px;
+
+    margin-top: 50px;
+}
+
+.text{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+.text p{
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.btn{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+    background-color: #F25C3A;
+    padding: 10px 20px;
+
+    margin-top: 19px;
+}

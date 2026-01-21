@@ -5,11 +5,16 @@ import Header from "./ui/header";
 export const Layout = ({children}: Readonly<{
     children: React.ReactNode;
   }>) => {
-    return<>
+    return(
+    <div>
+
          <div className={css.root}>
-                  <Header/>
-                  {children}
-            </div>
-                <Image   width={1920} height={1080} src="/bcgImg.jpg" alt=""/>
-    </>
+
+              <Header/>
+              {children}
+
+          </div>
+          <Image   width={1920} height={1080} src="/bcgImg.jpg" alt=""/>
+    </div>
+    )
 }

@@ -1,11 +1,42 @@
 @import "tailwindcss";
 
-a {
+/* a {
     font-family: 'Geoform', sans-serif;
 }
 
 p {
     font-family: 'Geoform', sans-serif;
+} */
+
+.light {
+    font-family: var(--font-cera-pro);
+    font-weight: 300;
+  }
+  
+  .regular {
+    font-family: var(--font-cera-pro);
+    font-weight: 400; 
+  }
+  
+  .medium {
+    font-family: var(--font-cera-pro);
+    font-weight: 500;
+  }
+  
+  .thin {
+    font-family: var(--font-cera-pro);
+    font-weight: 100;
+  }
+
+main{
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 105px;
+}
+
+body{
+        background-color: #2F1634;
+    
 }
 
 

@@ -3,6 +3,8 @@
     font-weight: 500;
     font-size: 14px;
     position: relative;
+    transition: all 0.3s ease; 
+    text-decoration: none;
 }
 
 .nav {
@@ -21,9 +23,13 @@
 .navLink.active::after {
     content: '';
     position: absolute;
-    bottom: -46.5;
+    bottom: -46.5px;
     left: 0;
     right: 0;
     height: 2px;
     background-color: #F25C3A;
+    transition: transform 0.3s ease;
+    transform-origin: left center;
 }
+
+

@@ -4,7 +4,7 @@
 import Image from 'next/image'
 import css from './index.module.css'
 import { Navigation } from './navigation'
-import { Network } from './network-img'
+import { Network } from '@/shared/ui/network-img'
 
 export default function Header() {
 
@@ -24,7 +24,7 @@ export default function Header() {
 
         <div className={css.phone}>
           <Image width={24} height={24} src="/header/phone-call.png" alt="" />
-          <p className={css.phoneText}>+7 495 257 55 65</p>
+          <a href='#' className={css.phoneText}>+7 495 257 55 65</a>
         </div>
         
         <button className={css.btn}>

@@ -1,0 +1,37 @@
+import { YEARS, YearsType } from "./models"
+import css from './index.module.css'
+import Image from "next/image"
+
+export const Years = () => {
+    return(
+        <div className={css.all}>
+            <div className={css.column}>
+                {YEARS.map((item: YearsType, index) => (
+                    <div key={index} className={css.fourBlock}>
+                        <div className={css.containerYears}>
+                            <div className={css.yearBlock}>
+                                <div className={css.year}>
+                                    <p>{item.title}</p>
+                                    <div className={css.yearDot}></div>
+                                </div>
+                                <Image width={7} height={14} src='/main/TriangleWhite.png' alt=""/>        
+                            </div>
+                        </div>
+
+                        <div className={css.containerContent}>
+                            <div className={css.fourBlock}>
+                                <div className={css.contentBlock}>
+                                    <Image className={css.img} width={7} height={14} src='/main/TrianglePurple.png' alt=""/>        
+                                    <div className={css.content}>
+                                        <p>{item.content}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <div className={css.verticalLine}></div>
+        </div>
+    )
+}

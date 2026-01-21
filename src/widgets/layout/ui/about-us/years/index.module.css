@@ -1,0 +1,90 @@
+.all {
+    display: flex;
+    position: relative;
+}
+
+.fourBlock {
+    display: flex;
+    align-items: start;
+    gap: 40px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+    flex: 1;
+}
+
+.containerContent {
+    display: flex;
+    align-items: start;
+}
+
+.containerYears {
+    display: flex;
+    align-items: center;
+}
+
+.yearBlock {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.year {
+    width: 65px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.verticalLine {
+    position: absolute;
+    right: 430px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    z-index: 1;
+}
+
+.yearDot {
+    position: absolute;
+    right: -31px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #2F1634;
+    border-radius: 50%;
+    border: 2px solid #F25C3A;
+    z-index: 3;
+}
+
+.content {
+    width: 403px;
+    background-color: #503655;
+    min-height: 40px;
+}
+
+.content p {
+    color: white;
+    padding: 5px 15px;
+    margin: 0;
+}
+
+.contentBlock {
+    display: flex;
+    align-items: start;
+}
+
+.img {
+    display: block;
+    padding-top: 8px;
+}
