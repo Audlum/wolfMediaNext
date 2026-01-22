@@ -3,8 +3,8 @@ import css from './index.module.css'
 
 export const AboutUs = () => {
     return(<>
-        <div className={css.all}>
-            <h2 className={css.h2}>О НАС</h2>
+        <section className={css.all}>
+            <h2 className={css.h2}>о нас</h2>
                 <div className={css.container}>
 
                     <div className={css.text}>
@@ -16,7 +16,7 @@ export const AboutUs = () => {
                         другую, мы идем прямо к читателю, в его новостную
                         ленту. </p>
 
-                        <button className={css.btn}>ПОДРОБНЕЕ</button>
+                        <button className={css.btn}>Подробнее</button>
 
                     </div>
                     
@@ -25,7 +25,7 @@ export const AboutUs = () => {
                     </div>
 
                 </div>
-        </div>
+        </section>
 
         </>
     )

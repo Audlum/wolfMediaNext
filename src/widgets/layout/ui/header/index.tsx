@@ -28,7 +28,7 @@ export default function Header() {
         </div>
         
         <button className={css.btn}>
-          НАПИСАТЬ НАМ
+          Написать нам
         </button>
       </div>
     </header>

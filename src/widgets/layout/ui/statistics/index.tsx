@@ -4,15 +4,15 @@ import css from './index.module.css'
 export default function Statistics(){
     return(
         <div >
-                <h1 className={css.h1}>ИЗДАТЕЛЬСТВО <br/> НОВЫХ МЕДИА</h1>
+                <h1 className={css.h1}>Издательство <br/> новых медиа</h1>
             <div className={css.statistics_container}>
                 <div className={css.statistics}>
                     <h2 className={css.h2}>100 000 000</h2>
-                    <p className={css.p}>НАША АУДИТОРИЯ</p>
+                    <p className={css.p}>наша аудитория</p>
                 </div>
                 <div className={css.statistics}>
                     <h2 className={css.h2}>12 000 000</h2>
-                    <p className={css.p}>ЕЖЕДНЕВНО НАС ЧИТАЮТ</p>
+                    <p className={css.p}>ежедневно нас читают</p>
                 </div>
             </div>
 

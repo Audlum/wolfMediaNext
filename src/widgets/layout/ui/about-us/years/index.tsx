@@ -3,7 +3,7 @@ import css from './index.module.css'
 import Image from "next/image"
 
 export const Years = () => {
-    return(
+    return (
         <div className={css.all}>
             <div className={css.column}>
                 {YEARS.map((item: YearsType, index) => (
@@ -14,16 +14,19 @@ export const Years = () => {
                                     <p>{item.title}</p>
                                     <div className={css.yearDot}></div>
                                 </div>
-                                <Image width={7} height={14} src='/main/TriangleWhite.png' alt=""/>        
+                                <Image width={7} height={14} src='/main/TriangleWhite.png' alt="" />
                             </div>
                         </div>
 
                         <div className={css.containerContent}>
                             <div className={css.fourBlock}>
                                 <div className={css.contentBlock}>
-                                    <Image className={css.img} width={7} height={14} src='/main/TrianglePurple.png' alt=""/>        
-                                    <div className={css.content}>
-                                        <p>{item.content}</p>
+                                    <Image className={css.img} width={7} height={14} src='/main/TrianglePurple.png' alt="" />
+                                    <div className={css.content} dangerouslySetInnerHTML={{ __html: item.content }}
+                                    >
+                                        {/* <p>{item.content}</p> */}
+                                        
+                                        {/* <p>{item.content.before} <strong>{item.content.boldWord}</strong> {item.content.after}</p> */}
                                     </div>
                                 </div>
                             </div>

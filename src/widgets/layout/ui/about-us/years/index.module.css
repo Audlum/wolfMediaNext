@@ -50,7 +50,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: white;
+    background-color: rgba(146, 115, 152, 0.5);
     z-index: 1;
 }
 
@@ -71,12 +71,12 @@
     width: 403px;
     background-color: #503655;
     min-height: 40px;
+    color: #fff;
+    padding: 5px 15px;
 }
 
-.content p {
-    color: white;
-    padding: 5px 15px;
-    margin: 0;
+.content strong {
+    font-weight: 700;
 }
 
 .contentBlock {

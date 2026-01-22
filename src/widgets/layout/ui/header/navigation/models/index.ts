@@ -6,19 +6,19 @@ export type NavigationLinksType ={
 export const  NAVIGATION_LINKS: Array<NavigationLinksType> = [
  {
     href: '/',
-    title: 'О НАС'
+    title: 'О нас'
  },
  {
     href: '/pages/portfolio',
-    title: 'ПОРТФОЛИО'
+    title: 'Портфолио'
  },
  {
     href: '/pages/service',
-    title: 'УСЛУГИ'
+    title: 'Услуги'
  },
  {
     href: '/pages/contact',
-    title: 'КОНТАКТЫ'
+    title: 'Контакты'
  },
  
 ]
