@@ -11,7 +11,7 @@ export type CommunitiesType = {
 
 export const COMMUNITIES: Array<CommunitiesType> = [
     {
-        img: '/main/chef.png',
+        img: '/main/chef.svg',
         title: 'Кулинария',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',
@@ -21,7 +21,7 @@ export const COMMUNITIES: Array<CommunitiesType> = [
         moreTitleThird: 'Мокрый нос'
     },
     {
-        img: '/main/smile.png',
+        img: '/main/smile.svg',
         title: 'Юмор',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',
@@ -31,7 +31,7 @@ export const COMMUNITIES: Array<CommunitiesType> = [
         moreTitleThird: 'Мокрый нос'
     },
     {
-        img: '/main/lapa.png',
+        img: '/main/lapa.svg',
         title: 'Животные',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',
@@ -41,7 +41,7 @@ export const COMMUNITIES: Array<CommunitiesType> = [
         moreTitleThird: 'Мокрый нос'
     },
     {
-        img: '/main/airplane.png',
+        img: '/main/airplane.svg',
         title: 'Путешествия',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',
@@ -51,7 +51,7 @@ export const COMMUNITIES: Array<CommunitiesType> = [
         moreTitleThird: 'Мокрый нос'
     },
     {
-        img: '/main/sport.png',
+        img: '/main/sport.svg',
         title: 'Спорт',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',
@@ -61,7 +61,7 @@ export const COMMUNITIES: Array<CommunitiesType> = [
         moreTitleThird: 'Мокрый нос'
     },
     {
-        img: '/main/forWomen.png',
+        img: '/main/forWomen.svg',
         title: 'Для женщин',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',
@@ -71,7 +71,7 @@ export const COMMUNITIES: Array<CommunitiesType> = [
         moreTitleThird: 'Мокрый нос'
     },
     {
-        img: '/main/design.png',
+        img: '/main/design.svg',
         title: 'Дизайн',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',
@@ -81,7 +81,7 @@ export const COMMUNITIES: Array<CommunitiesType> = [
         moreTitleThird: 'Мокрый нос'
     },
     {
-        img: '/main/brain.png',
+        img: '/main/brain.svg',
         title: 'Познавательно',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',
@@ -91,7 +91,7 @@ export const COMMUNITIES: Array<CommunitiesType> = [
         moreTitleThird: 'Мокрый нос'
     },
     {
-        img: '/main/babyCarriage.png',
+        img: '/main/babyCarriage.svg',
         title: 'Материнство',
         moreImgFirst: '/main/EllipseDog.svg',
         moreTitleFirst: 'Дай лапу',

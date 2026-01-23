@@ -1,0 +1,30 @@
+.content {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #503655;
+
+    width: 370px;
+    /* padding-top: 14px;
+    padding-bottom: 22px;
+    padding-left: 25px;
+    padding-right: 25px; */
+
+    padding: 14px 25px;
+
+    text-align: center;
+}
+
+.content span {
+    color: #F25C3A;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-height: 562px; */
+    /* justify-content: space-between; */
+
+    gap: 20px;
+}
