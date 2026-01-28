@@ -22,9 +22,9 @@
     justify-content: center;
 }
 
-.imgContenier:hover{
+/* .imgContenier:hover{
     background-color: rgba(81, 46, 90, 0.515);
-}
+} */
 
 .titleConteiner {
     background-color: rgba(80, 54, 85, 1);
@@ -36,13 +36,21 @@
     justify-content: center;
 }
 
-.titleConteiner:hover{
+/* .titleConteiner:hover{
     background-color: rgb(100, 69, 106);
-}
+} */
 
 .titleConteiner p{
     font-size: 22px;
     font-weight: 700;
     color: #fff;
+
+}
+
+@media(max-widhth: 900px){
+
+    .container {
+        gap: 22px;
+    }
 
 }

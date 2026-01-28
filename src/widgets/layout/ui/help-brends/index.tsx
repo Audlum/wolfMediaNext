@@ -11,7 +11,7 @@ export default function HelpBrends(){
             <HelpBlock/>
 
             <div className={css.btnContainer}>
-            <button className={css.btn}>Рекламное сотрудничество</button>
+            <a href='#' className={css.btn}>Рекламное сотрудничество</a>
             </div>
 
         </section>

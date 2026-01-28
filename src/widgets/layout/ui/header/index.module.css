@@ -41,3 +41,41 @@
     font-weight: 500px;
 }
 
+.mail{
+    display: none;
+}
+
+@media(max-width: 900px){
+    .header{
+        padding: 15px 20px;
+    }
+
+    .logo{
+        width: 165px;
+        height: 40px;
+    }
+
+    .logoAndNav{
+        gap: 30px;
+    }
+
+    .network{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .mail{
+        display: block;
+        padding: 8px 16px;
+        border: 2px solid rgba(255, 255, 255, 1);
+    }
+
+    .phone{
+        padding-right: 20px;
+    }
+
+}
+

@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import css from './index.module.css'
 
-export default function Statistics(){
-    return(
+export default function Statistics() {
+    return (
         <div >
-                <h1 className={css.h1}>Издательство <br/> новых медиа</h1>
+            <h1 className={css.h1}>Издательство <br /> новых медиа</h1>
             <div className={css.statistics_container}>
                 <div className={css.statistics}>
                     <h2 className={css.h2}>100 000 000</h2>
@@ -17,10 +17,10 @@ export default function Statistics(){
             </div>
 
             <div className={css.img}>
-                <Image  width={24} height={12} src='/main/Vector.png' alt="" />
+                <Image width={24} height={12} src='/main/Vector.png' alt="" />
             </div>
-    
+
         </div>
     )
-        
+
 }

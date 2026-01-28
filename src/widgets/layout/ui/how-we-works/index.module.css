@@ -17,3 +17,18 @@
     align-items: start;
     gap: 30px;
 }
+
+@media(max-width: 900px){
+    .section{
+        margin-top: 80px;
+    }
+
+    .h1{
+        font-size: 34px;
+    }
+
+    .container{
+        flex-wrap: wrap;
+    }
+
+}

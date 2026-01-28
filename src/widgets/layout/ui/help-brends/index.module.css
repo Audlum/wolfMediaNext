@@ -31,3 +31,22 @@
     justify-content: center;
     margin-top: 99px;
 }
+
+@media(max-width: 900px){
+    .section{
+        margin-top: 80px;
+    }
+
+    .h1{
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+
+    .textNetworks{
+        margin-bottom: 40px;
+    }
+
+    .btnContainer{
+        margin-top: 60px;
+    }
+}

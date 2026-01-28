@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.imgF{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid rgba(242, 92, 58, 1);
+    max-height: 340px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.imgS{
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid rgba(242, 92, 58, 1);
+    max-height: 340px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.emailBlock{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.emailBlock a{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}

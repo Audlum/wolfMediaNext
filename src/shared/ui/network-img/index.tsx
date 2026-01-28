@@ -6,7 +6,10 @@ export const Network = () => {
     return(
         <div className={css.networks}>
             {NETWORK_IMG.map((item: NetworkImgType, index) => (
-                <Image width={24} height={24} src={item.src} key={index} alt=""/>
+                <a href="#"  key={index}>
+
+                    <Image width={24} height={24} src={item.src} alt=""/>
+                </a>
             ))}
         </div>
     )

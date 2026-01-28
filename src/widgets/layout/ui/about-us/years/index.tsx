@@ -19,7 +19,7 @@ export const Years = () => {
                         </div>
 
                         <div className={css.containerContent}>
-                            <div className={css.fourBlock}>
+                            {/* <div className={css.fourBlock}> */}
                                 <div className={css.contentBlock}>
                                     <Image className={css.img} width={7} height={14} src='/main/TrianglePurple.png' alt="" />
                                     <div className={css.content} dangerouslySetInnerHTML={{ __html: item.content }}
@@ -29,7 +29,7 @@ export const Years = () => {
                                         {/* <p>{item.content.before} <strong>{item.content.boldWord}</strong> {item.content.after}</p> */}
                                     </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                     </div>
                 ))}

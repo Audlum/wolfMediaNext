@@ -5,7 +5,6 @@ import Image from 'next/image';
 import css from './index.module.css';
 import { SLIDER, SliderType } from './models';
 
-// SVG стрелка (белая без круга)
 const NextArrow = () => (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 24L20 16L12 8" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -20,13 +19,11 @@ const PrevArrow = () => (
 
 export const Slider = () => {
     const [activeIndex, setActiveIndex] = useState<number>(0);
-    
-    // Создаем массив из 8 картинок для карусели (3 оригинальных повторяются)
+
     const carouselImages = [];
-    const totalVisible = 4; // Видно 4 картинки
-    const totalCarousel = 8; // Всего 8 картинок в карусели
+    const totalVisible = 4; 
+    const totalCarousel = 8; 
     
-    // Заполняем карусель повторяющимися картинками
     for (let i = 0; i < totalCarousel; i++) {
         const index = i % SLIDER.length;
         carouselImages.push(SLIDER[index]);
@@ -41,14 +38,11 @@ export const Slider = () => {
     };
 
     const handleThumbnailClick = (index: number) => {
-        // Определяем, какой оригинальный слайд соответствует кликнутой миниатюре
         const originalIndex = index % SLIDER.length;
         setActiveIndex(originalIndex);
     };
 
-    // Определяем, какая миниатюра активна в карусели
     const getCarouselActiveIndex = () => {
-        // Активная миниатюра - это первое вхождение активного слайда в карусели
         for (let i = 0; i < carouselImages.length; i++) {
             const originalIndex = i % SLIDER.length;
             if (originalIndex === activeIndex) {

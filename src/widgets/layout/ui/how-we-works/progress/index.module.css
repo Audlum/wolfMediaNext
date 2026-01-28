@@ -28,3 +28,21 @@
 
     gap: 20px;
 }
+
+@media(max-width: 900px){
+    .content {
+        font-size: 16px;
+
+        width: 419px;
+        height: 92px;
+    
+        padding: 14px 25px;
+
+    }
+
+    .container{
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+
+}

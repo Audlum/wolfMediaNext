@@ -38,3 +38,9 @@ body {
   background-color: #2F1634;
 
 }
+
+@media(max-width: 900px){
+  main{
+    max-width: 860px;
+  }
+}
