@@ -80,6 +80,9 @@
 .video::-webkit-media-controls {
     opacity: 0.5;
 }
+.moreBtnMini{
+    display: none;
+}
 
 @media(max-width: 900px){
     .section{
@@ -121,6 +124,12 @@
 
     .servicesAndVideo{
         margin-top: 30px;
+    }
+
+    .moreBtnMini{
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
 }

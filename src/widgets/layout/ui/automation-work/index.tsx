@@ -66,7 +66,10 @@ export default function AutomationWork() {
                         </div>
                     )}
                 </div>
-                <MoreBtn/>
+                <div className={css.moreBtnMini}>
+
+                    <MoreBtn/>
+                </div>
             </div>
         </section>
     )

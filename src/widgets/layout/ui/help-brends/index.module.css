@@ -76,4 +76,13 @@
     .btnContainer{
         margin-top: 30px;
     }
+
+    .btn{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        width: 100%;
+    }
 }

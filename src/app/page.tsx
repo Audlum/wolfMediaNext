@@ -9,24 +9,14 @@ import Statistics from "@/widgets/layout/ui/statistics";
 
 export default function Home() {
   return (
-    
-     <main>
-      
-        <Statistics/>
-
-        <AboutUs/>
-
-        <Communities/>
-
-        <HowWeWorks/>
-
-        <HelpBrends/>
-
-        <AutomationWork/>
-
-        <QuestionsBlock/>
-
-
-     </main>
+    <main>
+      <Statistics/>
+      <AboutUs/>
+      <Communities/>
+      <HowWeWorks/>
+      <HelpBrends/>
+      <AutomationWork/>
+      <QuestionsBlock/>
+    </main>
   );
 }
