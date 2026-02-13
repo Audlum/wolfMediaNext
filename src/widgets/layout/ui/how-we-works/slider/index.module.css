@@ -111,4 +111,31 @@
     z-index: 2;
 }
 
+@media(max-width: 600px){
+    .carouselItem {
+        width: 141px;
+        height: 79px;
+    }
+
+    .carouselContainer {
+        height: 79px;
+    }
+    
+}
+@media(max-width: 320px){
+    .carouselItem {
+        width: 103px;
+        height: 57px;
+    }
+
+    .carouselContainer {
+        height: 57px;
+    }
+
+    .carouselArrow {
+        right: 10px; 
+    }
+    
+}
+
 

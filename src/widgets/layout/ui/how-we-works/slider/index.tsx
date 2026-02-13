@@ -91,12 +91,12 @@ export const Slider = () => {
                                     }`}
                                 />
                                 
-                                {/* Плавный переход для крайней правой картинки */}
+                               
                                 {index === totalVisible - 1 && (
                                     <div className={css.fadeTransition} />
                                 )}
                                 
-                                {/* Белая стрелка поверх 4-й картинки */}
+                               
                                 {index === totalVisible - 1 && (
                                     <div 
                                         className={css.carouselArrow}

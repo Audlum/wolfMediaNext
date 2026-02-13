@@ -24,4 +24,29 @@
     .section{
         margin-top: 80px;
     }
+
+    .h1{
+        font-size: 34px;
+    }
+
+}
+@media(max-width: 600px){
+    .h1{
+        font-size: 30px;
+    }
+
+    .pBottom{
+        font-size: 18px;
+    }
+}
+@media(max-width: 320px){
+    .h1{
+        font-size: 26px;
+    }
+
+    .pBottom{
+        font-size: 14px;
+        margin-top: 30px;
+        text-align: center;
+    }
 }

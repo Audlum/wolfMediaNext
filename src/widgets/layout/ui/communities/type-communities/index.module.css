@@ -137,3 +137,92 @@
 
 
 }
+@media(max-width: 600px){
+
+    .block {
+        width: 173px;
+        height: 109px;
+        gap: 15px;
+    }
+
+    .blockImg{
+        width: 46px;
+        height: 46px;
+    }
+
+    .title{
+        font-size: 16px;
+    }
+
+
+    .rectangleBottom {
+        width: 173px;
+        height: 100px;
+    }
+
+    .whiteBlock {
+        width: 100%;
+        height: 100%;
+
+        gap: 10px;
+    }
+
+    .imgMini{
+        width: 30px;
+        height: 30px;
+    }
+
+    .moreBlock p{
+        font-size: 9px;
+        width: 90%;
+    }
+
+
+}
+@media(max-width: 320px){
+
+    .container{
+        gap: 14px;
+    }
+
+    .block {
+        width: 138px;
+        height: 87px;
+        gap: 12px;
+    }
+
+    .blockImg{
+        width: 37px;
+        height: 37px;
+    }
+
+    .title{
+        font-size: 14px;
+    }
+
+
+    .rectangleBottom {
+        top: 100px;
+        width: 138px;
+        height: 90px;
+    }
+
+    .whiteBlock {
+        width: 100%;
+        height: 100%;
+
+        gap: 5px;
+    }
+
+    .imgMini{
+        width: 30px;
+        height: 30px;
+    }
+
+    .moreBlock p{
+        font-size: 9px;
+        width: 90%;
+    }
+
+
+}

@@ -39,4 +39,33 @@
         gap: 29px;
     }
 
+    .navLink.active::after {
+        bottom: -28.5px;
+    }
+
+}
+@media(max-width: 320px){
+    .nav{
+        flex-direction: column;
+        gap: 29px;
+    }
+
+    .navLink.active::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 5px;
+        height: 22px;
+        background-color: #F25C3A;
+        bottom: auto;
+        right: auto;
+    }
+
+    .navLink {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
 }

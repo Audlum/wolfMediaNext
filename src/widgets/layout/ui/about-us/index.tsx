@@ -20,12 +20,20 @@ export const AboutUs = () => {
                     </div>
 
                     {/* <button className={css.btn}>Подробнее</button> */}
-                    <MoreBtn />
+                    <div className={css.btnBigScreen}>
+
+                        <MoreBtn />
+                    </div>
 
                 </div>
 
                 <div className={css.yearsBlock}>
                     <Years />
+                </div>
+
+                <div className={css.btnLitScreen}>
+
+                    <MoreBtn />
                 </div>
 
             </div>

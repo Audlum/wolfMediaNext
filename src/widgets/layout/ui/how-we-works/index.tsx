@@ -10,7 +10,10 @@ export default function HowWeWorks(){
 
                 <Progress/>
 
-                <Slider/>
+                <div className={css.slider}>
+
+                    <Slider/>
+                </div>
 
             </div>
 

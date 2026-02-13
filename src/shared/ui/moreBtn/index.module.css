@@ -9,3 +9,14 @@
     /* margin-top: 19px; */
     text-transform: uppercase;
 }
+
+@media(max-width: 320px){
+    .btn{
+        padding: 0px;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

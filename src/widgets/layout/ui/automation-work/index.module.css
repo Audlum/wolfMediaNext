@@ -100,3 +100,27 @@
     }
 
 }
+@media(max-width: 600px){
+
+    .h1{
+        font-size: 30px;
+    }
+
+}
+@media(max-width: 320px){
+
+    .h1{
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .p{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .servicesAndVideo{
+        margin-top: 30px;
+    }
+
+}

@@ -34,3 +34,71 @@
     font-weight: 500;
     color: rgba(146, 115, 152, 1);
 }
+
+.pAdaptiv{
+    display: none;
+}
+
+.logoMini{
+    display: none;
+}
+
+@media(max-width: 900px){
+    .container{
+        max-width: 860px;
+        padding-bottom: 11px;
+        padding-top: 20px;
+    }
+
+    .p{
+        display: none;
+    }
+
+    .pAdaptiv{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(146, 115, 152, 1);
+        padding-bottom: 10px;
+    }
+
+}
+@media(max-width: 900px){
+    .container{
+        max-width: 568px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logoMini{
+        display: block;
+    }
+
+}
+@media(max-width: 320px){
+    .container{
+        max-width: 290px;
+    }
+
+    .networkPhone{
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+    .phone{
+        order: 1;
+    }
+    .network{
+        order: 2;
+    }
+
+    .pAdaptiv{
+        font-size: 11px;
+        padding-bottom: 17px;
+        padding-left: 30%;
+    }
+
+}

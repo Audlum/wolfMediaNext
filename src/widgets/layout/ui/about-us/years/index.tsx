@@ -11,7 +11,9 @@ export const Years = () => {
                         <div className={css.containerYears}>
                             <div className={css.yearBlock}>
                                 <div className={css.year}>
-                                    <p>{item.title}</p>
+                                    {/* <div dangerouslySetInnerHTML={{ __html: item.title }}>  
+                                    </div> */}
+                                    <p className={css.title}>{item.title}</p>
                                     <div className={css.yearDot}></div>
                                 </div>
                                 <Image width={7} height={14} src='/main/TriangleWhite.png' alt="" />

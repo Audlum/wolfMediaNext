@@ -37,7 +37,53 @@
     }
 
     .p {
-        margin-bottom: 26px;
+        margin-bottom: 22px;
+    }
+
+    .mensEmails{
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+    }
+
+    .mens{
+        order: 2;
+    }
+
+    .emails{
+        order: 1;
+    }
+
+}
+@media(max-width: 600px) {
+
+    .h1 {
+        font-size: 30px;
+        margin-bottom: 27px;
+    }
+
+    .p {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .mensEmails{
+        gap: 46px;
+    }
+
+}
+@media(max-width: 320px) {
+
+    .h1 {
+        font-size: 26px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+
+    .mensEmails{
+        gap: 30px;
     }
 
 }

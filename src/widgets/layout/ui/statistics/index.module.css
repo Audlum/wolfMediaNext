@@ -20,6 +20,7 @@
     font-size: 50px;
     font-weight: 900;
     /* font-family: 'Geoform', sans-serif; */
+    margin: 0px 0px;
 }
 
 .p{
@@ -38,10 +39,7 @@
     /* padding: 30px 130px */
     width: 570px;
     height: 167px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .img{
@@ -59,6 +57,11 @@
         height: 140px;
     }
 
+    .statistics_container{
+        margin-top: 103px;
+        margin-bottom: 30px;
+    }
+
     .h2{
         font-size: 52px;
     }
@@ -67,4 +70,54 @@
         font-size: 18px;
     }
 
+}
+
+@media(max-width: 600px){
+    .h1{
+        font-size: 64px;
+    }
+
+    .h2{
+        font-size: 39px;
+    }
+    .p{
+        font-size: 14px;
+    }
+
+    .statistics{
+        width: 271px;
+        height: 119px;
+    }
+
+    .statistics_container{
+        margin-top: 108px;
+    }
+}
+@media(max-width: 320px){
+    .h1{
+        font-size: 36px;
+    }
+
+    .h2{
+        margin-top: 5px;
+    }
+
+    .p{
+        padding-bottom: 17px;
+    }
+
+    .statistics_container{
+        margin-top: 73px;
+        margin-bottom: 29px;
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .statistics{
+        width: 100%;
+        height: 95px;
+    }
 }

@@ -32,3 +32,21 @@
     }
 
 }
+@media(max-width: 600px){
+
+    .h1{
+        font-size: 30px;
+    }
+
+    .slider{
+        width: 100%;
+    }
+
+}
+@media(max-width: 320px){
+
+    .h1{
+        font-size: 26px;
+    }
+
+}

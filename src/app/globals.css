@@ -42,5 +42,19 @@ body {
 @media(max-width: 900px){
   main{
     max-width: 860px;
+
+    margin-top: 109px;
+  }
+}
+@media(max-width: 600px){
+  main{
+    max-width: 561px;
+  }
+}
+@media(max-width: 320px){
+  main{
+    max-width: 290px;
+
+    margin-top: 80px;
   }
 }

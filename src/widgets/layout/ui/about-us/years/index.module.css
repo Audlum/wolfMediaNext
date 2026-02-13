@@ -46,6 +46,11 @@
     z-index: 2;
 }
 
+.title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .verticalLine {
     position: absolute;
     right: 477px;
@@ -97,6 +102,45 @@
     
     .verticalLine{
         right: 360px;
+    }
+
+}
+@media(max-width: 600px){
+    
+    .verticalLine{
+        right: 475px;
+    }
+
+}
+@media(max-width: 320px){
+    
+    .title{
+        font-size: 14px;
+    }
+
+    .year{
+        width: 53px;
+    }
+
+    .content{
+        font-size: 14px;
+        min-height: 50px;
+        max-height: 115px;
+        width: 207px;
+    }
+
+    .fourBlock{
+        gap: 15px;
+    }
+
+    .yearDot {
+        right: -23px;
+        width: 9.5px;
+        height: 9px;
+    }
+
+    .verticalLine{
+        right: 218px;
     }
 
 }

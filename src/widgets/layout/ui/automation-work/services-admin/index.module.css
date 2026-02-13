@@ -53,3 +53,62 @@
     }
 
 }
+@media(max-width: 600px){
+    
+    .p{
+        font-size: 18px;
+    }
+
+    .servicesItem{
+        width: 173px;
+        gap: 11px;
+        height: 58px;
+    }
+
+    .servicesItem p{
+        font-size: 15px;
+    }
+
+    .img{
+        width: 28px;
+        height: 28px;
+    }
+
+}
+@media(max-width: 320px){
+
+
+    .servicesItem{
+        width: 173px;
+        gap: 11px;
+        height: 58px;
+    }
+
+    .servicesItem p{
+        font-size: 15px;
+    }
+
+    .img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .srvicesContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    
+        margin-top: 20px;
+    }
+
+    .servicesItem{
+        width: 290px;
+        gap: 14px;
+        height: 50px;
+    }
+
+    .servicesItem p{
+        font-size: 14px;
+    }
+
+}

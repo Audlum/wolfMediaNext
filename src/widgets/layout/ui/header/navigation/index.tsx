@@ -1,4 +1,4 @@
-import Link from "next/link"
+    import Link from "next/link"
 import { NAVIGATION_LINKS, NavigationLinksType } from "./models"
 import css from './index.module.css'
 import { usePathname } from "next/navigation"

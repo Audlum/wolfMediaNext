@@ -4,23 +4,33 @@
     gap: 30px;
 }
 
-.imgF{
-    padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+.imgFContainer{
+    width: 370px;
+    height: 370px;
     border: 2px solid rgba(242, 92, 58, 1);
-    max-height: 340px;
-    height: 100%;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.imgF{
+    /* padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px; */
+    /* border: 2px solid rgba(242, 92, 58, 1); */
+    height: 340px;
+    /* margin-bottom: 20px; */
+    position: absolute;
 }
 .imgS{
-    padding-top: 25px;
+    /* padding-top: 25px;
     padding-left: 40px;
     padding-right: 40px;
-    border: 2px solid rgba(242, 92, 58, 1);
-    max-height: 340px;
-    height: 100%;
-    margin-bottom: 20px;
+    border: 2px solid rgba(242, 92, 58, 1); */
+    height: 340px;
+    /* height: 100%;
+    margin-bottom: 20px; */
 }
 
 .emailBlock{
@@ -33,4 +43,93 @@
     font-size: 18px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
+    border-bottom: 1px dashed   rgba(255, 255, 255, 0.3); 
+}
+
+@media(max-width: 900px){
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imgFContainer{
+        width: 419px;
+        height: 419px;
+        margin-bottom: 40px;
+    }
+
+    .imgF{
+        height: 340px;
+    }
+    .imgS{
+        height: 391px;
+    }
+    .emailBlock a{
+        font-size: 16px;
+    }
+}
+@media(max-width: 600px){
+
+    .imgFContainer{
+        width: 269px;
+        height: 269px;
+        margin-bottom: 40px;
+    }
+
+    .imgF{
+        height: 247px;
+    }
+    .imgS{
+        height: 251px;
+    }
+
+    .emailBlock img{
+        width: 18px;
+        height: 18px;
+    }
+
+   
+}
+@media(max-width: 320px){
+
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .block{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .imgFContainer{
+        width: 108px;
+        height: 108px;
+        margin: 0px 0px;
+    }
+
+    .imgF{
+        height: 98px;
+        width: 84px;
+    }
+    .imgS{
+        height: 100px;
+        width: 84px;
+    }
+
+    .emailBlock img{
+        width: 18px;
+        height: 18px;
+    }
+
+    .emailBlock{
+        gap: 10px;
+    }
+
+    .emailBlock a{
+        font-size: 13px;
+    }
+
+   
 }

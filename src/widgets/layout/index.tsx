@@ -16,7 +16,7 @@ export const Layout = ({children}: Readonly<{
               <Footer/>
 
           </div>
-          <Image   width={1920} height={1080} src="/bcgImg.jpg" alt=""/>
+          <Image className={css.img}  width={1920} height={1080} src="/bcgImg.jpg" alt=""/>
     </div>
     )
 }
